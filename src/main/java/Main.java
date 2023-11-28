@@ -12,6 +12,10 @@ public class Main {
 
         AdminView admin1 = new AdminView(patient1, patient2);
         admin1.dispInfo();
+
+        DoctorView doctor1 = new DoctorView(patient1);
+        doctor1.CreateUI(patient1);
+
     }
 
 }
